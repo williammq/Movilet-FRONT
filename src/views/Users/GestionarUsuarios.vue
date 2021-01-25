@@ -205,7 +205,7 @@ export default {
                             console.log(this.listaroles);
                   }).catch(err => console.log(err));
     }, async obtenerUsuarios(){
-           await axios.get("/usuario/all")
+           await axios.get("/Usuario/all")
             .then(res => {
                     this.setUsuarios(res.data);
             }).catch(err => console.log(err));

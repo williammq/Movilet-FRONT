@@ -142,40 +142,7 @@ export default {
           name: "GestionUsuarios",
           href: "/dashboard/usuarios"
         },
-        {
-          title: "Gestion de Residentes",
-          group: "admin",
-          icon: "dashboard",
-          name: "GestionarResidentes",
-          href: "/dashboard/residentes"
-        },
-        {
-          title: "Gestionar Plan de Intervención",
-          group: "admin",
-          icon: "dashboard",
-          name: "GestionPlanIntervencion",
-          href: "/dashboard/planIntervencion"
-        },
-        {
-          title: "Gestionar Talleres",
-          group: "admin",
-          icon: "dashboard",
-          name: "GestionTalleres",
-          href: "/dashboard/talleres"
-        },
-        {
-          title: "Gestionar Informe",
-          group: "admin",
-          icon: "dashboard",
-          name: "GestionInforme",
-          href: "/dashboard/informes"
-        },{
-          title: "Gestion Ficha Ingreso",
-          group: "admin",
-          icon: "dashboard",
-          name: "GestionarFichaIngreso",
-          href: "/dashboard/fichaIngreso"
-        },
+        
       ],
       scrollSettings: {
         maxScrollbarLength: 160,
